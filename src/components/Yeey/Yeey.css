@@ -1,0 +1,24 @@
+.allyeey {
+  background-color: #efc7ff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.box{
+  width: 50%;
+  margin-top: 10px;
+}
+
+.key{
+  width: 20%;
+  margin-top: 20%;
+}
+
+.letter{
+  /* height: 80%; */
+  width: 80%;
+  margin-top: 20px;
+}

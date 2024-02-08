@@ -1,0 +1,61 @@
+.heart-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffce55;
+}
+
+.row {
+  display: flex;
+  margin: 2% 0;
+}
+
+.door-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.instruction{
+  background-color: #618c04;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+
+.door {
+  width: 60%;
+}
+
+#keylink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrong-key-centered {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrong-key {
+  width: 40%;
+}
+
+.message {
+  background-color: #618c04;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+  margin-top: 20%;
+}
